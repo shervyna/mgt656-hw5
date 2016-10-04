@@ -7,4 +7,4 @@ app.get('/', function(request, response){
 app.get('/nickname', function(request, response){
     response.send('I don\'t know why my nickname is shiny-horse.');
 });
-app.listen(process.env.PORT || 4000, process.env.IP || 'localhost');
+app.listen(process.env.PORT || 4000);
